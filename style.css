@@ -1,0 +1,88 @@
+body {
+  background-color:#d4d8dc ;
+  font-family:'Oswald', sans-serif;
+  color:#8f838b ;
+  font-size: 100;
+  line-height: 2;
+}
+h1 {
+  color:#a04668;
+  font-family:'Ubuntu', sans-serif;
+  line-height:3;
+  font-weight: 300;
+}
+h2 {
+  color:;
+  font-family:'Open Sans', sans-serif ;
+  line-height:2 ;
+}
+a {
+  color: #BAA1A7;
+}
+a:hover {
+  color:#EEC1BA;
+  text-decoration:underline ;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  background:#f8fbfa;
+  border-bottom:5px ;
+  border-right: 5px;
+  border-radius:5px;
+  box-shadow:2px 2px 3px #BAA1A7 ;
+  text-align: center;
+}
+.liens >li {
+  display: inline-block;
+  color: #BAA1A7;
+  padding-right: 20px;
+}
+#photo {
+  margin: 0 auto;
+  border-radius: 150px;
+  border: 2px solid black;
+}
+#button {
+  background-color: #BAA1A7;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#button:hover {
+  background-color: #EEC1BA;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
